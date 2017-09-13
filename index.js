@@ -11,7 +11,7 @@ function johnLennonFacts(facts){
   let i = 0;
   while (i<facts.length) {
     facts[i] = facts[i]+"!!!"
-    i--;
+    i++;
   }
 }
 
@@ -22,5 +22,4 @@ function iLoveTheBeatles(number){
     number++;
   } while (number<15)
 
-  }
 }
