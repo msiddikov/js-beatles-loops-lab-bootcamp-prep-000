@@ -1,4 +1,4 @@
-function theBeatlesPlay(artist, intrument){
+function theBeatlesPlay(artist, instrument){
   var str = [];
   for (let i=0; i < artist.length || i<instrument.length;i++){
     str.push(`${artist[i]} plays ${instrument[i]}`);
@@ -13,6 +13,7 @@ function johnLennonFacts(facts){
     facts[i] = facts[i]+"!!!"
     i++;
   }
+  return facts;
 }
 
 function iLoveTheBeatles(number){
@@ -21,5 +22,7 @@ function iLoveTheBeatles(number){
     array.push("I lova the Beatles!");
     number++;
   } while (number<15)
+
+  return array;
 
 }
